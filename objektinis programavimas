@@ -1,0 +1,28 @@
+class Car:
+    def __init__(self, made_year : int, model: str, fluel_type: str ) :
+        self.made_year = made_year
+        self.model = model
+        self.fuel_type = fluel_type    
+        print(f'made_year: {self.made_year}, model: {self.model}, fuel_type: {self.fuel_type}')
+    @staticmethod
+    def driving () -> str:
+        return 'We drive'
+    @staticmethod
+    def standing_still () -> str:
+        return 'standing still guys'
+    @staticmethod
+    def fueling () -> str:
+        return 'refueling my guys'
+my_car = Car(made_year=1996, model='Audi RsS6', fuel_type='diesel')
+
+print(Car.standing_still())
+
+class ElectriCar(car):
+    def refueling(self) -> str:
+        return 'Batery charged'
+    def drive_autonomous
+
+tesla = ElectricCar(made_year=1784, model='model 3', fuel_type='electric vechicle')
+
+print(tesla.refueling())
+print(tesla.drive_autonomous())

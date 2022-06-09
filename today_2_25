@@ -1,0 +1,18 @@
+
+my_list = [2.5, 2, "labas", 5, "vakaras"]
+new_list = sum([item for item in my_list if type(item) != str])
+print(new_list)
+
+# rusiavimas
+
+my_list = [5, 1, 49, 71, 0.2, 22]
+
+print(my_list.sort(reverse=True))
+print(my_list)
+
+# arba galima ir taip
+
+sorted_list = sorted(my_list)
+print(sorte_list)
+
+my_tuple

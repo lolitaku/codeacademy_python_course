@@ -1,0 +1,16 @@
+from datetime import datetime
+
+
+class Worker:
+    def __init__(self, name: str, hourly_wage: float, start_date: datetime):
+        self.name = name
+        self.hourly_wage = hourly_wage
+        self.start_date = start_date
+
+    def _days_worked(self) -> int:
+        new_date = datetime.now()
+        return (new_date - self.start_date).days
+
+worked=Worker(name='Adomux', hourly_wage=9.5, start_date=datetime(2022,5,11))
+
+print(worked._days_worked())

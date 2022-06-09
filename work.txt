@@ -1,0 +1,3 @@
+x = int(input("Iveskite skaiciu")
+y = int(input("Iveskite kita skaiciu")
+

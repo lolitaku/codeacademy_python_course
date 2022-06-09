@@ -1,0 +1,2 @@
+with open("failas.txt", 'w') as failas:
+    failas.write("import this")
