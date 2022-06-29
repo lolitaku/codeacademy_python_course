@@ -1,12 +1,16 @@
 def add(x, y):
-    pass
+    result = (x + y)
+    return result
 
 def subtract(x, y):
-    pass
+    result = (x - y)
+    return result
 
 
 def multiply(x, y):
-    pass
+    result = (x * y)
+    return result
 
 def devide(x, y):
-    pass
+    result = (x / y)
+    return result
